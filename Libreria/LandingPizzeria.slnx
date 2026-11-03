@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="LandingPizzeria.Core/LandingPizzeria.Core.csproj" />
+  <Project Path="LandingPizzeria.Persistence/LandingPizzeria.Persistence.csproj" />
+  <Project Path="LandingPizzeria.Services/LandingPizzeria.Services.csproj" /> 
+</Solution>

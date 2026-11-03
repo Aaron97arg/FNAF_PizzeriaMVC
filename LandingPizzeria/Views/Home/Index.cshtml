@@ -1,0 +1,162 @@
+﻿@{
+    ViewData["Title"] = "Inicio";
+}
+
+<!-- Sección Principal / Hero -->
+<section id="inicio" class="py-5 bg-black border-bottom border-secondary text-center">
+    <div class="container my-3">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                
+                <h2 class="fw-bold text-danger text-center mb-4">¡Bienvenidos a Pizza Arcade!</h2>
+                
+                <!-- Contenedor Multimedia -->
+                <div class="ratio ratio-16x9 bg-dark border border-2 border-danger rounded shadow-lg mb-4">
+                    <video controls poster="/IMG/IMG2.jpeg" preload="metadata">
+                        <source src="/IMG/Vid1.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <!-- Descripción -->
+                <p class="fs-4 text-light lead mb-4">
+                    La mejor pizza recién horneada en un ambiente nocturno y arcade listo para la diversión.
+                </p>
+
+                <div class="d-flex justify-content-center gap-3">
+                    <a href="#menu" class="btn btn-danger btn-lg text-uppercase fw-bold px-4">Ver Menú</a>
+                    <a href="#contacto" class="btn btn-outline-warning btn-lg text-uppercase fw-bold px-4">Hacer Pedido</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Menú Especialidades (4 Pizzas) -->
+<section id="menu" class="py-5 bg-dark border-bottom border-secondary">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="text-warning text-uppercase border-bottom border-warning d-inline-block pb-2">Especialidades</h2>
+        </div>
+        
+        <div class="row g-4">
+            <!-- Pizza 1: Freddy -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-black text-light border-danger h-100 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?auto=format&fit=crop&w=600&q=80" class="card-img-top object-fit-cover" alt="Pizza Napolitana" style="height: 180px;">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <div>
+                            <h5 class="card-title text-secondary fs-5 fw-bold mb-0">Pizza Freddy <span class="fs-6 text-light d-block">Pizza Napolitana</span></h5>
+                            <p class="card-text text-light small">Salsa de tomate casera, abundante mozzarella, rodajas de tomate fresco, ajo y orégano.</p>
+                        </div>
+                        <div class="mt-3">
+                            <span class="badge bg-danger fs-6">$12.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pizza 2: Chica -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-black text-light border-warning h-100 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80" class="card-img-top object-fit-cover" alt="Pizza Mozzarella" style="height: 180px;">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <div>
+                            <h5 class="card-title text-warning fw-bold mb-0">Pizza Chica <span class="fs-6 text-light d-block">Pizza Mozzarella Clásica</span></h5>
+                            <p class="card-text text-light small">La clásica e infalible pizza con doble capa de queso mozzarella fundido y aceitunas verdes.</p>
+                        </div>
+                        <div class="mt-3">
+                            <span class="badge bg-warning text-dark fs-6">$11.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pizza 3: Bonnie -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-black text-light border-danger h-100 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=600&q=80" class="card-img-top object-fit-cover" alt="Pizza Fugazzeta" style="height: 180px;">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <div>
+                            <h5 class="card-title text-primary fs-5 fw-bold mb-0">Pizza Bonnie <span class="fs-6 text-light d-block">Pizza Fugazzeta</span></h5>
+                            <p class="card-text text-light small">Masa crocante cubierta de abundante queso mozzarella, cebolla salteada al punto y especias.</p>
+                        </div>
+                        <div class="mt-3">
+                            <span class="badge bg-danger fs-6">$13.50</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pizza 4: Foxy -->
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-black text-light border-warning h-100 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=600&q=80" class="card-img-top object-fit-cover" alt="Pizza Calabresa" style="height: 180px;">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <div>
+                            <h5 class="card-title text-danger fs-5 fw-bold mb-0">Pizza Foxy <span class="fs-6 text-light d-block">Pizza Calabresa</span></h5>
+                            <p class="card-text text-light small">Salsa picante de la casa, queso mozzarella y rodajas de longaniza calabresa ahumada.</p>
+                        </div>
+                        <div class="mt-3">
+                            <span class="badge bg-warning text-dark fs-6">$14.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Contacto / Pedidos -->
+<section id="contacto" class="py-5 bg-black">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                <div class="text-center mb-4">
+                    <h2 class="text-danger text-uppercase mb-2">Haz tu Pedido</h2>
+                    <p class="text-muted">Ingresa tus datos de entrega para registrar tu orden en el sistema.</p>
+                </div>
+                
+                <form asp-controller="Home" asp-action="CrearPedido" method="post" class="text-start bg-dark p-4 rounded border border-danger shadow">
+                    <!-- Cliente: Nombre -->
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label text-light">Nombre</label>
+                        <input type="text" id="nombre" name="Nombre" class="form-control bg-black text-light border-secondary" placeholder="Ej: Juan Pérez" required>
+                    </div>
+
+                    <!-- Cliente: Teléfono -->
+                    <div class="mb-3">
+                        <label for="telefono" class="form-label text-light">Teléfono</label>
+                        <input type="tel" id="telefono" name="Telefono" class="form-control bg-black text-light border-secondary" placeholder="Ej: 1122334455" required>
+                    </div>
+
+                    <!-- Cliente / Pedido: Dirección de Entrega -->
+                    <div class="mb-3">
+                        <label for="direccion" class="form-label text-light">Dirección de Entrega</label>
+                        <input type="text" id="direccion" name="Direccion" class="form-control bg-black text-light border-secondary" placeholder="Ej: Av. Siempreviva 742" required>
+                    </div>
+
+                    <!-- DetallePedido: Pizza -->
+                    <div class="mb-3">
+                        <label for="pizza" class="form-label text-light">Selecciona tu Pizza</label>
+                        <select id="pizza" name="PizzaId" class="form-select bg-black text-light border-secondary">
+                            <option value="1">🍕 Pizza Freddy (Napolitana) - $12.99</option>
+                            <option value="2">🍕 Pizza Chica (Mozzarella) - $11.99</option>
+                            <option value="3">🍕 Pizza Bonnie (Fugazzeta) - $13.50</option>
+                            <option value="4">🍕 Pizza Foxy (Calabresa) - $14.00</option>
+                        </select>
+                    </div>
+
+                    <!-- DetallePedido: Cantidad -->
+                    <div class="mb-4">
+                        <label for="cantidad" class="form-label text-light">Cantidad</label>
+                        <input type="number" id="cantidad" name="Cantidad" class="form-control bg-black text-light border-secondary" value="1" min="1" max="10" required>
+                    </div>
+
+                    <button type="submit" class="btn btn-danger w-100 fw-bold text-uppercase py-2">Confirmar Pedido</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
